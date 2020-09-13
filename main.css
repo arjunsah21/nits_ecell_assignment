@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgb(200, 250, 135); */
+}
+
+.container{
+    display: flex;
+    max-width: 90%;
+    margin: 108px auto;
+    border: 3px solid red;
+    border-radius: 5px;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: rgb(198, 201, 195);
+}
+
+.intro{
+ padding: 11px;
+}
+
+.fe_img{
+    max-width: 50%;
+    padding: 11px;
+}
+.fe_img img{
+    width: 500px;
+    border: 3px solid wheat;
+    border-radius: 5px;
+}
+
+.text_b{
+    font-family: ubuntu;
+    padding: 21px;
+}

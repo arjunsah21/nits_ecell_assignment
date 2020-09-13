@@ -1,0 +1,42 @@
+.navBar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(92, 93, 94);
+    max-width: 100%;
+}
+
+.navBar img{
+    width: 51px;
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: url(/fonts/ubuntu.ttf);
+}
+
+.item:hover{
+    cursor: pointer;
+}
+.navBar li{
+    list-style: none;
+    padding: 0px 21px;
+    font-family: ubuntu;
+    font-size: 31px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 2px 5px;
+}
+
+li a:hover{
+    background-color: #FF9800;
+    color: rgb(92, 93, 94);
+    border-radius: 5px;
+}
+
+.nits_logo{
+    display: flex;
+    flex-direction: row-reverse;
+}
