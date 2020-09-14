@@ -1,10 +1,7 @@
 .card{
-    /* border: 3px solid red; */
     border-radius: 5px;
-    width: 251px;
     background-color: rgb(198, 201, 195);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
-    float: left;
     display: flex;
     flex-direction: column;
     align-items: center;
