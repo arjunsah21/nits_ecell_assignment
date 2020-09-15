@@ -45,3 +45,11 @@
     display: grid;
     grid-template-columns: repeat(4, auto);
 }
+
+.social_intro{
+    display: flex;
+    justify-content: center;
+    margin: 51px;
+    font-size: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+}

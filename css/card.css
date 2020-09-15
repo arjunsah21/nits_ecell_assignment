@@ -5,11 +5,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin: 21px;   
 }
 
 .card img{
     width: 221px;
+    padding: 11px;
 }
 
 .event_name{
@@ -33,4 +35,12 @@
 .view_more_btn:hover{
     cursor: pointer;
     background-color: #FF9800;
+}
+
+.social{
+    cursor: pointer;
+}
+
+.social:hover{
+    opacity: 0.8;
 }
