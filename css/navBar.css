@@ -1,7 +1,7 @@
 .navBar{
     display: flex;
     align-items: center;
-    background-color: rgb(252, 246, 195);
+    background-color: rgb(248, 247, 237);
     max-width: 100%;
 }
 
@@ -17,6 +17,7 @@
 .item:hover{
     cursor: pointer;
 }
+
 .navBar li{
     list-style: none;
     padding: 0px 21px;
@@ -31,12 +32,16 @@ li a{
 }
 
 li a:hover{
-    background-color: #FF9800;
-    color: rgb(92, 93, 94);
+    /* background-color: #FF9800; */
+    color: #FF9800;
     border-radius: 5px;
 }
 
-.nits_logo{
+/* .nits_logo{
     display: flex;
     flex-direction: row-reverse;
+} */
+
+.active{
+    color: #FF9800;
 }

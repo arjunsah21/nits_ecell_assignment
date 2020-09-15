@@ -10,7 +10,6 @@
     margin: 108px auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
     border-radius: 5px;
-    box-sizing: border-box;
     align-items: center;
     background-color: rgb(198, 201, 195);
 }
@@ -41,7 +40,6 @@
 }
 
 .econ{
-    /* border: 3px solid blue; */
     max-width: 90%;
     margin: auto;
     display: grid;
